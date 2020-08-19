@@ -28,6 +28,4 @@ public class Cat extends Overland {
         printClassName();
         JAW.eat();
     }
-
-
 }

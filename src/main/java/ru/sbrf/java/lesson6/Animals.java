@@ -8,6 +8,4 @@ public abstract class Animals {
     public abstract void movement();
 
     public abstract void eat();
-
-
 }

@@ -28,4 +28,5 @@ public class Dog extends Overland {
         printClassName();
         JAW.eat();
     }
+
 }

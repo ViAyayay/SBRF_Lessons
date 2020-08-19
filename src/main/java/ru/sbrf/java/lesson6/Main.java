@@ -15,5 +15,6 @@ public class Main {
         dog.climbUpTree();
         dog.baseLandMove();
     }
+
 }
 
