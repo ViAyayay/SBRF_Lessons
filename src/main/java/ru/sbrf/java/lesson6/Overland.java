@@ -11,5 +11,4 @@ public abstract class Overland extends Animals {
     public abstract void climbUpTree();
 
     public abstract void swimming();
-
 }

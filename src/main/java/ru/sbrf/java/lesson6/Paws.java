@@ -15,4 +15,3 @@ public class Paws {
         System.out.println(" run on the ground");
     }
 }
-

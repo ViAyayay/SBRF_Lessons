@@ -14,4 +14,5 @@ class BadClaws extends Claws {
     public void climbUpTree() {
         System.out.println(" bad climbing on tree");
     }
+
 }
