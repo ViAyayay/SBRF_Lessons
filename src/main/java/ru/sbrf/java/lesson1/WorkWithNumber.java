@@ -1,8 +1,6 @@
 package ru.sbrf.java.lesson1;
 
-public class Main {
-    public static void main(String[] args) {
-    }
+public class WorkWithNumber {
 
     public static byte getSumTwoNumber(byte by, short sh) {
         return (byte) (by + sh);
@@ -31,7 +29,7 @@ public class Main {
         }
     }
 
-    public static void printBinaryOverMaxInt() {
+    public static void prinBinaryOverMaxInt() {
         System.out.println(Integer.toBinaryString(Integer.MAX_VALUE));
         System.out.println(Integer.toBinaryString(Integer.MAX_VALUE + 1));
     }
