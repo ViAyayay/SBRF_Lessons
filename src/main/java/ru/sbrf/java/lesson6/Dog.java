@@ -1,27 +1,23 @@
 package ru.sbrf.java.lesson6;
 
-public class Dog extends Overland {
+public class Dog extends Animals implements SwimAble {
     private final Paws PAWS;
     private final Jaw JAW;
 
     public Dog() {
-        PAWS = new Paws(new BadClaws());
+        PAWS = new Paws();
         JAW = new Jaw();
     }
 
-    public void baseLandMove() {
+    public void movement() {
         printClassName();
         PAWS.runOnGround();
     }
 
-    public void climbUpTree() {
-        printClassName();
-        PAWS.claws.climbUpTree();
-    }
-
+    @Override
     public void swimming() {
         printClassName();
-        System.out.println(" swimming");
+        PAWS.swimming();
     }
 
     public void eat() {

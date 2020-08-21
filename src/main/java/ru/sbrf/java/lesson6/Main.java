@@ -10,10 +10,11 @@ public class Main {
         cat.movement();
         cat.eat();
 
-        Overland dog = new Dog();
+        Dog dog = new Dog();
         dog.swimming();
-        dog.climbUpTree();
-        dog.baseLandMove();
+
+        Cat kitty = new Cat();
+        kitty.climbUpTree();
     }
 
 }

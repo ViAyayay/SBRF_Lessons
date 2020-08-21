@@ -1,31 +1,30 @@
 package ru.sbrf.java.lesson6;
 
-public class Cat extends Overland {
+public class Cat extends Animals implements ClimbsAble {
     private final Paws PAWS;
+    private final Claws CLAWS;
     private final Jaw JAW;
 
     public Cat() {
-        PAWS = new Paws(new GoodClaws());
+        PAWS = new Paws();
+        CLAWS = new Claws();
         JAW = new Jaw();
     }
 
-    public void baseLandMove() {
+    public void movement() {
         printClassName();
         PAWS.runOnGround();
     }
 
     public void climbUpTree() {
         printClassName();
-        PAWS.claws.climbUpTree();
-    }
-
-    public void swimming() {
-        printClassName();
-        System.out.println(" bad swimming");
+        CLAWS.climbUpTree();
     }
 
     public void eat() {
         printClassName();
         JAW.eat();
     }
+
+
 }
