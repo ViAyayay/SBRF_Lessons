@@ -1,11 +1,17 @@
 package ru.sbrf.java.lesson6;
 
-public abstract class Animals {
+public class Animals {
     public void printClassName() {
         System.out.print(this.getClass().getSimpleName());
     }
 
-    public abstract void movement();
+    public void movement() {
+        printClassName();
+        System.out.println(" move");
+    }
 
-    public abstract void eat();
+    public void eat() {
+        printClassName();
+        System.out.println(" eat");
+    }
 }

@@ -14,7 +14,6 @@ public class Dog extends Animals implements SwimAble {
         PAWS.runOnGround();
     }
 
-    @Override
     public void swimming() {
         printClassName();
         PAWS.swimming();

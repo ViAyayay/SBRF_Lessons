@@ -4,4 +4,8 @@ public class Paws implements SwimAble {
     public void runOnGround() {
         System.out.println(" run on the ground");
     }
+
+    public void swimming() {
+        System.out.println(" swimming");
+    }
 }
